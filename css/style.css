@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: rgb(52, 53, 52);
+    padding: 5px;
+}
+
+h1 {
+    color: lightgray;
+}
+
+.galaxyImg {
+    position: absolute;
+    margin: 0, auto;
+    z-index: -1;
+}
+
+.sector {
+    width: 750px;
+    height: 750px;
+}
+
+/* sector 1 */
+.sctr1 {
+    position: absolute;
+    opacity: 0;
+}
+
+.sctr1:hover {
+    opacity: .3;
+}
+/*sector 1 end
+
+sector 2 */
+.sctr2 {
+    position: absolute;
+    margin-left: 750px;
+    opacity: 0;
+}
+
+.sctr2:hover {
+    opacity: .3;
+}
+/* sector 2 end
+
+sector 3 */
+.sctr3 {
+    position: absolute;
+    margin-top: 750px;
+    opacity: 0;
+}
+
+.sctr3:hover {
+    opacity: .3;
+}
+/* sector 3 end
+
+sector 4 */
+.sctr4 {
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 750px;
+    opacity: 0;
+}
+
+.sctr4:hover {
+    opacity: .3;
+}
+/* sector 4 end */
