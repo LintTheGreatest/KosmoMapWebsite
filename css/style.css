@@ -17,6 +17,17 @@ h1 {
     z-index: -1;
 }
 
+.gs1 {
+    margin-top: 2000px;
+    z-index: -1;
+}
+
+.gs2 {
+    margin-top: 2000px;
+    margin-right: 1600px
+    z-index: -1;
+}
+
 .sector {
     width: 750px;
     height: 750px;
