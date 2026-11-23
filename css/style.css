@@ -1,14 +1,20 @@
 body {
     background-color: black;
+    overflow: hidden;
 }
 
 header {
     background-color: rgb(52, 53, 52);
-    padding: 5px;
+    padding: 1px;
 }
 
 h1 {
     color: lightgray;
+    display: inline-block;
+}
+
+#addPOI {
+    margin-left: 10px;
 }
 
 .galaxyImg {
@@ -88,4 +94,27 @@ sector 4 */
     width: 100px;
     height: 30px;
     z-index: 50;
+}
+
+#viewport {
+    overflow: hidden;
+    width: 100%;
+    height: calc(100vh - 60px);
+}
+
+#canvas {
+    position: relative;
+    transform-origin: 0 0;
+}
+
+.poi {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: red;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    pointer-events: none;
 }
