@@ -17,6 +17,11 @@ h1 {
     margin-left: 10px;
 }
 
+#poiStatus {
+    color: lightgray;
+    margin-left: 10px;
+}
+
 .galaxyImg {
     position: absolute;
     margin: 0, auto;
